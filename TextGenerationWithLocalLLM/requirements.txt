@@ -1,0 +1,9 @@
+# LangChain Core
+langchain
+
+# Hugging face integration
+langchain-huggingface
+huggingface-hub
+
+# Environment variable management
+python-dotenv

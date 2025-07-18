@@ -1,0 +1,9 @@
+# LangChain Core
+langchain
+
+# Ollama integraion
+langchain-ollama
+huggingface-hub
+
+# Environment variable management
+# python-dotenv
