@@ -1,0 +1,5 @@
+# LangChain Core
+langchain
+
+# Ollama integration
+langchain-ollama
