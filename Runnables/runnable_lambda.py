@@ -14,7 +14,7 @@ from langchain_core.runnables import RunnableLambda
 
 # Python function to upper case
 
-def to_uppercase(text: str):
+def to_uppercase(text: str) -> str:
     return text.upper()
 
 
@@ -25,7 +25,7 @@ model = ChatOllama(model="gemma3:1b-it-q4_K_M")
 parser = StrOutputParser()
 
 # create the prompt template
-prompt_template = PromptTemplate.from_template(template="Tell me a fictional story about the {topic}")
+prompt_template = PromptTemplate.from_template(template="Tell me one line fictional story about the {topic}")
 
 
 # create uppercase runnable
