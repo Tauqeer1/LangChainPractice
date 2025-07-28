@@ -1,0 +1,8 @@
+# LangChain Core
+langchain
+
+# LangChain Ollama integration
+langchain-ollama
+
+# Pydantic
+pydantic
