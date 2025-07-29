@@ -3,3 +3,6 @@ langchain
 
 # Ollama integration
 langchain-ollama
+
+# Pydantic
+pydantic
